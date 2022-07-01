@@ -3,17 +3,26 @@
 ## Installation
 1. 
 ### Linux
-Run `sudo apt-get install python3-venv`
-`python3 -m venv .venv`
-`source .venv/bin/activate`
+Run 
+```
+sudo apt-get install python3-venv
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 ### macOS
-Run `python3 -m venv .venv`
-`source .venv/bin/activate`
+Run 
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 ### Windows
-Run `py -3 -m venv .venv`
-`.venv\scripts\activate`
+Run 
+```
+py -3 -m venv .venv
+.venv\scripts\activate
+```
 
 2. Run `python -m pip install --upgrade pip`
 3. Run `python -m pip install flask`
