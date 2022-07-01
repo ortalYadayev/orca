@@ -1,9 +1,8 @@
 # orca
 
 ## Installation
-1. 
+1. Run
 ### Linux
-Run 
 ```
 sudo apt-get install python3-venv
 python3 -m venv .venv
@@ -11,14 +10,12 @@ source .venv/bin/activate
 ```
 
 ### macOS
-Run 
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### Windows
-Run 
 ```
 py -3 -m venv .venv
 .venv\scripts\activate
